@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 
 namespace PDebugCustomDLLTemplate{
@@ -8,6 +8,9 @@ namespace PDebugCustomDLLTemplate{
     */
     /*If you want to use Functions or Types from your target Game just
     * add the "Assembly-CSharp.dll" to your References (Dependencies - > Add Project Reference).
+    */
+    /*If the dll doesn't work ingame try to replace the unity dlls references in ProjectRoot/UnityEngine folder
+     *with the dlls from your target game in GameRoot/GameName_Data/Managed
     */
 
     public class CustomBehaviour : MonoBehaviour{
